@@ -46,7 +46,7 @@ const query = async (sql, onError) => {
             const result = await db.query(sqlReturn);
             output[i] = result;
           } else {
-            throw "BŁĄD";
+            throw "ERROR";
           }
           // console.log(sqlReturn);
         }
