@@ -8,7 +8,7 @@ Simple array based sql function in JavaScript with Transactions
 - string must be valid sql query
 - function is callback that as its first argument takes output array of previous sql queries must return string
 - example
-- returns array [ output: Array of Object/s, errors: Array Of Error/s ]
+- returns object { output: Array of Object/s, errors: Array Of Error/s }
 
 * Example
   ```javascript
